@@ -23,15 +23,15 @@
 #include <limits>
 
 const sir::log_type 
-      sir::debug = 0x1, 
-      sir::error = 0x2, 
-      sir::warning = 0x4, 
-      sir::fatal = 0x8, 
-      sir::log = 0x10, 
+      sir::debug = 0x1,
+      sir::error = 0x2,
+      sir::warning = 0x4,
+      sir::fatal = 0x8,
+      sir::log = 0x10,
       sir::screen = 0x20,
       sir::log_all = std::numeric_limits<sir::log_type>::max();
 
-const sir::option_type 
+const sir::option_type
       sir::timestamp = 0x1,
       sir::linefeeds = 0x2,
       sir::modulename = 0x4,
