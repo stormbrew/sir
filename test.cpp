@@ -49,6 +49,7 @@ int main()
 	tmp << "after";
 
 	cout << "Press Enter to finish" << endl;
+	cin.sync();
 	cin.get();
 
 	return 0;
